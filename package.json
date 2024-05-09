@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nyc": "^15.1.0",
+    "save": "^2.9.0"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  }
+}
